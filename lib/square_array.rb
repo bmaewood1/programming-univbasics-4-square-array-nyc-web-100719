@@ -4,8 +4,8 @@ def square_array(array)
   while array[start] do
     array[start] = array[start]*array[start]
     start += 1 
-    p array
   end
+  p array
 end
 
 array = [1,2,3]
